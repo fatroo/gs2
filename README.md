@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+!!!!!! ANTES DE TUDO !!!!!!!!
+!   instale as dependencias !
+!       "npm install"       !
+!        logo depois        !
+!      "npm run dev"        !
+------------------------------
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Um login de usuário para teste:
+nome : João Silva
+telefone: 123456789
+cpf: 12345678901
+email: joao@email.com
+data de nascimento: 1990-01-01
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Primeiramente ao entra no site, você não conseguirá trafegar ao não ser que crie uma conta ou então entre em uma existente.Você vai se deparar com uma tela de cadastro primeiramente, mas é so clicar no botão à direita de cadastro(-ja tenho uma conta-) que voce podera entrar com uma conta eistente. Lembrando que o login não possui uma senha, ele é feito apartir de outros dados como: nome, telefone, cpf, email, data de nascimento.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Logo em seguida que entrar ou cadastrar, você é direcionado para a página "home", nela você tem um pouco de informações sobre a solução e tanto no Header quanto no Footer você tem links navegáveis onde pode ir para a página de serviço, onde também explica sobre a solução/serviço e o botão dashboard, que te leva ao dashboard kkk.
 
-## Learn More
+No fundo da página serviço você encontrará um botão de contrato, onde ele te leva para um dashboard.
 
-To learn more about Next.js, take a look at the following resources:
+No dashboard o usuário consegue ver as ongs que ele tem cadastrado,consegue alterar(botão azul) informções da ong ou também excluir(botão vermelho) o cadastro da ong, e em cada ong tem um botão(ver detalhes) onde leva você para uma página "agua" que contém informações adicionais dela e também aos serviços que ela contratou podendo tambem excluir(botão vermelho) , alterar(botão azul) o serviço contratado ou então adicionar um novo serviço de água(botão "adicionar").
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+No menu de navegação esquerdo enquanto você está no dashboard, você pode voltar ao dashboard inicial ou acessar por esse menu a página aguas.
+O Ultimo link do menu lateral do dashboard tem o botão Nova Ong, onde você pode adicionar uma nova ong ao seu usuário.
+obs: Cada usuario pode ter diversas ongs, e cada ong pode ter diversos serviços de tratamento de água.
+obs: Logo, ao entrar com o usuario informado ao topo desse Readme você poderá encontrar ongs e serviços cadastrados, mas ao fazer o seu proprio cadastro(lembrando que você apenas precisa fechar a aba onde abriu o website para que possa entrar em sua conta ou criar uma nova)
