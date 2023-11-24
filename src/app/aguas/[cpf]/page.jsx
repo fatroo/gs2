@@ -160,7 +160,7 @@ export default function Dashboard() {
                       key={agua.id}
                       className="bg-white p-4 mb-4 shadow-md rounded-md"
                     >
-                      <h1>Quantidade de Água: {agua.qualidadeAgua}</h1>
+                      <h1>Quantidade de Água: {agua.quantidadeAgua}</h1>
                       <p>
                         Qualidade da Água:{" "}
                         {ong.cnpj == agua.cnpj ? agua.qualidade : ""}
