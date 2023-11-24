@@ -10,7 +10,7 @@ export default function Footer(){
     var cpf = sessionStorage.getItem("token");
 
     return (
-        <footer className={url.includes("/sign") || url.includes("adicionar-agua") || url.includes("editar-ong") || url.includes("error") ? "bg-slate-800 text-white py-2 absolute w-full bottom-0" :  "bg-slate-800 text-white py-2"}>
+        <footer className={ url.includes("editar-ong") || url.includes("error") ? "bg-slate-800 text-white py-2 absolute w-full bottom-0" :  "bg-slate-800 text-white py-2"}>
           <div className="flex flex-col items-center justify-around">
             <div className="logo cursor-pointer mb-4">
               <Link href="/">
